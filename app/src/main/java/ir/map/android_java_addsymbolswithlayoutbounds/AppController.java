@@ -1,0 +1,15 @@
+package ir.map.android_java_addsymbolswithlayoutbounds;
+
+import android.app.Application;
+
+import ir.map.sdk_map.Mapir;
+
+public class AppController extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+        //TODO Please add your API_KEY
+        Mapir.init(this, "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjgyNjczNTU0NmViNzIxNzllODEyNDFkMTYzODgzNTNjNDVhOThlM2ZlYzg0NGUwZjc1NWFlNmQ2ODZkYWE3MWRiMzc5ODQwZGRkY2JlY2M1In0.eyJhdWQiOiI5NDQ5IiwianRpIjoiODI2NzM1NTQ2ZWI3MjE3OWU4MTI0MWQxNjM4ODM1M2M0NWE5OGUzZmVjODQ0ZTBmNzU1YWU2ZDY4NmRhYTcxZGIzNzk4NDBkZGRjYmVjYzUiLCJpYXQiOjE2MDE5NjkxMTYsIm5iZiI6MTYwMTk2OTExNiwiZXhwIjoxNjAxOTY5MTE2LCJzdWIiOiIiLCJzY29wZXMiOlsiYmFzaWMiXX0.WlVH1adZv08h_6YFsSQBwO5TXjVUnQVzyAKdkKQXPc6EPsjtuyxoiYtdg1SstJzojdb17Q2Kp79aYq0hto5lhYw5V5Mvy38QeuhTMBEvS1t_oV--ucasseBCq8qOgvNDsyDwQW0P6kHgpEDfYNiePj1P7xTOuwfdb6xkehTEUE21YncAVuHFk28YaN4E2FcI0Jzi4keFwGazAmlwn9_agDPY8E3fHlDDzs1eAhPxkPVPTs8P9LweG2kx5bFwTxXHIVIX7nOwarwslebmYePx0ICtLSucBzyWGzbBiRhyEHkzhrZxhoxcmOQOIpZUjWDrPzkw0nv6RIUHYYnfX4diBQ");
+    }
+}
